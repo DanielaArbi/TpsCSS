@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&family=Nunito:wght@200&family=PT+Sans&family=Poppins:ital,wght@1,300&family=Raleway:wght@200&family=Roboto+Mono:wght@200&family=Smooch+Sans:wght@200;600&family=Source+Sans+Pro:wght@200;600&display=swap');
+/* tipografia diferente a la que viene por default */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* tamaño de latra de los titulos mas grandes */
+h2,h3{
+    font-size: 30px;
+}
+/* color del link y quito el subrayado */
+a{
+    color: #FA8258;
+    text-decoration: none;
+}
+/* tamaño de la de la letra mas paqueña y color gris */
+.date{
+    font-size: 13px;
+    color: #BDBDBD;
+}
+/* color de fondo gris de los span */
+span{
+    background-color: #D8D8D8;
+
+    word-spacing: normal;
+}

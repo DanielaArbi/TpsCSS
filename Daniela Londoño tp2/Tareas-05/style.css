@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&family=Nunito:wght@200&family=PT+Sans&family=Poppins:ital,wght@1,300&family=Raleway:wght@200&family=Roboto+Mono:wght@200&family=Smooch+Sans:wght@200;600&family=Source+Sans+Pro:wght@200;600&display=swap');
+/* tipografia diferente a la que esta por default */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/* tamaño de los titulo mas grandes */
+h1,h2,h3{
+  font-size: 35px;
+}
+/* tamaño de letra de la fecha mas pequeña y color gris claro */
+p{
+    font-size: 13px;
+    color: #a4a4a4ef;
+}
+
+/* ----depende de la tarea diferente color de fondo---- */
+.pendiente{
+   background-color:  #0101DF;
+   color: #FFFFFF;
+}
+.haciendo{
+    background-color: #FF8000;
+}
+.hecha{
+    background-color: #00FF00;
+}
+.cancelada{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    
+}

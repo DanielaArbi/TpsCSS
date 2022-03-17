@@ -1,0 +1,83 @@
+/* le doy a mi body un margen externo e interno */
+body{
+    margin: 30px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+/* mi div padre que contiene una img */
+.content{
+    width:600px ;
+    height: 915px ;
+    padding: 40px 0px 0px;
+    margin: 0 auto;
+    background-color: #A41111;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.7);
+}
+/* imagen del casco para que este en el centro */
+.image{
+    display: block;
+    width: 200px;
+    margin: 20px auto 55px;
+}
+/* div encima del div padre y sus componentes */
+.info{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #0c1f2c;
+    padding: 40px;
+    display: block;
+    height: 535px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.title{
+    font-family: "Open Sans", sans-serif ;
+    font-weight: bold;
+}
+.section{
+    margin-bottom: 45px;
+}
+.seccion{
+    border: 1px solid #A41111;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 8px;
+    font-size: 15px;
+}
+.section-title{
+    font-size: 15px;
+}
+.money{
+    font-size: 30px;
+}
+.boton{
+    background-color: #A41111;
+    border-radius: 100px;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 50px;
+
+}
+/* boton que vuelve al indice */
+.btnVolver{
+    margin: 30px;
+    float: right;
+}
+.btnVolver button{
+    width: 100px;
+    height: 50px;
+    background-color: #FE2E2E;
+    border: none;
+    border-radius: 100px;
+}
+.btnVolver button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}

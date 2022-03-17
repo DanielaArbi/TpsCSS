@@ -1,0 +1,151 @@
+/* le doy a mi body un margen externo e interno */
+body{
+    margin: 20px;
+    padding: 30px;
+}
+/* le establezco a mis seis divs el mismo nombre de clase y le doy el mismo tamaño */
+.bandera{
+   
+    width: 300px;
+    height: 200px;
+    margin: 0 auto 50px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+/* misfiferentes banderas */
+/* Alemania */
+.franjaNegra{
+    width: 300px;
+    height: 66px;
+    background-color: #000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.franjaRoja{
+    width: 300px;
+    height: 66px;
+    background-color: #FF0000;
+}
+.franjaAmarilla{
+    width: 300px;
+    height: 68px;
+    background-color: #FFFF00;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* Colombia */
+.colYellow{
+    width: 300px;
+    height: 66px;
+    background-color: #FFFF00;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.colBlue{
+    width: 300px;
+    height: 66px;
+    background-color: #2E2EFE;
+}
+.colRed{
+    width: 300px;
+    height: 68px;
+    background-color: #FF0000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* Polonia */
+.polWhite{
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.polRed{
+    width: 300px;
+    height: 100px;
+    background-color: #DF013A;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* Paises bajos */
+.pbRed{
+    width: 300px;
+    height: 66px;
+    background-color: #8A0829;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+}
+.pbWhite{
+    width: 300px;
+    height: 66px;
+    background-color: #fff;
+}
+.pbBlue{
+   
+        width: 300px;
+        height: 68px;
+        background-color:#0404B4 ;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+}
+
+/* Letonia */
+
+.letRed{
+   
+width: 300px;
+height: 66px;
+background-color: #B40404;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.letWhite{
+    
+ width: 300px;
+height: 66px;
+background-color: #fff;
+}
+.letRed2{
+    
+    width: 300px;
+height:68px;
+background-color: #B40404;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+/* Italia */
+.itaGreen{
+  border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    background: rgb(0,14,255);
+    /* aca uso solo un div como franja pero divido los colores con gradiente  */
+    background: linear-gradient(90deg, rgba(0,14,255,1) 0%, rgba(108,124,238,1) 35%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 65%, rgba(255,0,0,1) 65%, rgba(255,0,0,1) 100%);
+}
+/* titulo de los paises */
+.title p{
+   text-align: center;
+   font-size: 20px;
+   font-style: italic;
+   color: #FF0000;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* boton volver al menu */
+.btnVolver{
+    margin: 30px;
+    float: right;
+}
+.btnVolver button{
+    width: 100px;
+    height: 50px;
+    background-color: #FE2E2E;
+    border: none;
+    border-radius: 100px;
+}
+.btnVolver button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}

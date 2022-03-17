@@ -1,0 +1,113 @@
+body{
+display: flex;
+flex-direction: column;
+text-align: center;
+line-height: 40px;
+flex-wrap: wrap;
+}
+/* -------contenedor 1------ */
+.content1{
+display: flex;
+border: 1px solid black;
+height: 60px;
+padding-top: 10px;
+}
+/* mismo alto fijo a todos mis divs */
+div{
+    height: 50px;
+}
+.parte1{
+background-color: #45AC9B;
+flex-basis:25% ;
+}
+.parte2{
+    background-color:#8EDA73 ;
+    flex-basis: 25%;
+}
+.parte3{
+    background-color:#666B64 ;
+    flex-basis: 25%;
+}
+.parte4{
+    background-color: #772C20;
+    flex-basis: 25%;
+}
+.parte5{
+    background-color:#0C2F4C ;
+   flex-basis: auto;
+}
+/*----------- contenedor 2------------------ */
+.content2{
+display: flex;
+border: 1px solid black;
+height: 60px;
+margin-top: 10px;
+padding-top: 10px;
+}
+.part1{
+    background-color: #93b1ac;
+    flex-basis:25% ;
+    }
+    .part2{
+        background-color:#4c1a86 ;
+        flex-basis: 25%;
+    }
+    .part3{
+        background-color:#1f52a0 ;
+        flex-basis: 25%;
+    }
+    .part4{
+        background-color: #d65a47;
+        flex-basis: 25%;
+    }
+    .part5{
+        background-color:#ad19bb ;
+       flex-basis:25%;
+    }
+    .part6{
+        background-color:#a1d60e ;
+       flex-basis:auto;
+    }
+    /* ------contenedor 3------- */
+    .content3{
+        display: flex;
+border: 1px solid black;
+height: 60px;
+margin-top: 10px;
+padding-top: 10px;
+    }
+.box1{
+background-color:#6E185B ;
+flex-basis: 25%;
+ }
+ .box2{
+    background-color: #33B6BA;
+    flex-basis: 25%;
+ }
+.box3{
+    background-color: #D88510;
+    flex-basis: 25%;
+}
+.box4{
+    background-color: #580F89;
+    flex-basis: 25%;
+}
+.box5{
+    background-color: #C2B1CE;
+    flex-basis:50% ;
+}
+.box6{
+    background-color: #420203;
+    flex-basis: 50%;
+}
+/* boton para volver al index */
+button{
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #A9A9F5;
+    width: 100px;
+    height: 50px;
+}
+button a{
+    text-decoration: none;
+}

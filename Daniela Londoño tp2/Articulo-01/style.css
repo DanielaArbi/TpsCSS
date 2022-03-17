@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&family=Nunito:wght@200&family=PT+Sans&family=Source+Sans+Pro:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&family=Nunito:wght@200&family=PT+Sans&family=Smooch+Sans:wght@200&family=Source+Sans+Pro:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&family=Nunito:wght@200&family=PT+Sans&family=Poppins:ital,wght@1,300&family=Smooch+Sans:wght@200;600&family=Source+Sans+Pro:wght@200;600&display=swap');
+
+/* titulo con letra mas grande y una tipografia */
+h1{
+    font-size: 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+/* clase que hace referencia a mi span con un texto y le cambio el color a gris en hexadecimal */
+.texto{
+    color: #585858;
+    font-family: 'PT Sans', sans-serif;
+   
+}
+/* el link que esta en el texto, le cambio el color y le quito el subrayado */
+a{
+    color: #00BFFF;
+    text-decoration: none;
+}
+/* asigno a las tags p esta tipografia, menos el tercer parrafo */
+p{
+    font-family: 'PT Sans', sans-serif;
+}
+/* asigno por medio de una clase el estilo italica a algunas oraciones y palabras */
+.italica{
+    font-style: italic;
+}
+/* asigno por medio de una clase la fuente negrita a algunas oraciones y palabras */
+.negrita{
+    font-weight: bold;
+}
+/* por medio de una clase le pongo a mi tercer parrafo en italica y le asigno un tipografia */
+.thirdParagraph{
+    font-style: italic;
+    font-family: 'Nunito', sans-serif;
+}

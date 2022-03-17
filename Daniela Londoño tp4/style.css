@@ -1,0 +1,51 @@
+body{
+    margin: 20px;
+    height: 100%;
+}
+
+.title{
+    display: flex;
+justify-content: center;
+ color: rgb(196, 28, 28);
+   
+}
+.title h1{
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 20% 20% ; /* para las columnas con grid */
+    grid-template-rows: 50% 50% 50%; 
+    justify-content: center;
+    
+    
+    padding: 20px;
+   
+   
+}
+.caja{
+   width: 0 auto;
+    border: 3px solid black;
+    border-radius: 100px;
+    text-align: center;
+    margin: 10px;
+    background-color: orange;
+    
+}
+
+.caja a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    
+   
+}
+
+/* elementos grid de hijos */
+
+.Superposicion{
+    grid-column: 1/3;/* con esto le indico cuantas columnas ocupara en el grid */
+}

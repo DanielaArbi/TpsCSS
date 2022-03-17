@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&family=Nunito:wght@200&family=PT+Sans&family=Poppins:ital,wght@1,300&family=Roboto+Mono:wght@200&family=Smooch+Sans:wght@200;600&family=Source+Sans+Pro:wght@200;600&display=swap');
+
+/* tipografia distinta a la default */
+body{
+    font-family: 'Roboto Mono', monospace; 
+}
+/* tamaño mas grande a mis titulos */
+h1,h2{
+    font-size: 32px;
+}
+
+/* ----colores de fondo a mis lista segun el sistema de colores que correponda---- */
+.green{
+    background-color:#01DF01 ;
+    
+}
+.yellow{
+   background-color: rgb(246, 242, 19);
+}
+.blue{
+    background-color: hsl(229, 86%, 47%);
+    color: #FFFFFF;
+}

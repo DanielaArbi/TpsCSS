@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Noto+Sans:ital,wght@1,700&family=Nunito+Sans:wght@200&family=Nunito:wght@200&family=Open+Sans:wght@300&family=PT+Sans&family=Poppins:ital,wght@1,300&family=Raleway:wght@200&family=Roboto+Mono:wght@200&family=Smooch+Sans:wght@200;600&family=Source+Sans+Pro:wght@200;600&display=swap');
+body{
+    font-family: 'Fredoka', sans-serif;
+    color: #fff;
+}
+
+
+/* contenedor main */
+.contenedor{
+    width:100% ;
+    height: 735px;
+    /* de esta forma lo centro a mi div hijo */
+     display: flex;
+justify-content: center;
+align-items: center;
+
+
+/* contenedor card */
+}
+.content{
+    display: flex;
+    width: 600px;
+    height: 380px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid black;
+  border-radius: 10px;
+  background-color: #ED1D24;
+  box-shadow: 10px 10px 5px 0px
+   rgba(201, 17, 17, 0.6);
+  
+}
+.poster{
+    margin-right: 10px;
+}
+/* imagen */
+ .poster img{
+     width: 250px;
+ }
+  
+ .info{
+     display: flex;
+     flex-wrap: wrap;
+    height: 100%;
+     flex-grow: 1;
+     padding: 5px;
+     border: 1px solid black;
+     border-radius: 10px;
+     
+ }
+ .info-desc{
+     text-align: justify;
+ }
+ .info-date{
+     flex-wrap: wrap;
+     font-style: italic;
+ }
+ /* boton para volver al index */
+button{
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #A9A9F5;
+    width: 100px;
+    height: 50px;
+}
+button a{
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+/* por medio de clases le asigne diferente tamaño a los emojis */
+.rosa{
+    font-size: 32px;
+}
+.flor{
+    font-size: 39px;
+}
+.mariposa{
+    font-size: 45px;
+}
+.arbol{
+    font-size: 50px;
+}
+.ardilla{
+    font-size: 55px;
+}
+.fruta{
+    font-size: 60px;
+}
+.tigre{
+    font-size: 65px;
+}
+.rosaCaida{
+    font-size: 70px;
+}
+.caballo{
+    font-size:75px ;
+}
+.loro{
+    font-size: 80px;
+}

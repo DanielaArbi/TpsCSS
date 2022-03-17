@@ -1,0 +1,138 @@
+body{
+display: flex;
+flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 40px;
+
+}
+/* --------contenedor 1--------- */
+.content1{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 80px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    
+    
+}
+/* este alto lo va a tomar fijo en todos mis divs */
+div{
+    
+    height: 50px;
+
+}
+.case1{
+    width: 250px;
+    background-color: #FAAC58;
+}
+.case2{
+    flex-grow: 1;
+    background-color: #31B404;
+}
+.case3{
+    width: 250px;
+    background-color: #01DFD7;
+}
+/*-------- contenedor 2------------- */
+.content2{
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    height: 60px;
+    border: 1px solid black;
+    margin-top: 10px;
+    
+   
+}
+.cas1{
+width: 200px;
+background-color: #045FB4;
+}
+.cas2{
+background-color: #D0FA58;
+flex-grow: 1;
+}
+.cas3{
+background-color: #BE81F7;
+flex-grow: 1;
+}
+.cas4{
+width: 200px;
+background-color: #610B5E;
+}
+/*------------- contendor 3 ---------------*/
+.content3{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    height: 60px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.ter1{
+background-color: #A9F5F2;
+flex-grow: 1;
+}
+.ter2{
+background-color: #F3F781;
+flex-grow: 1;
+}
+.ter3{
+background-color: #FA5858;
+flex-grow: 1;
+}
+/* ------------contenedor 4------------- */
+.content4{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    height: 60px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.box1{
+background-color: #F781F3;
+flex-grow: 2.03;
+}
+.box2{
+background-color: #D8F781;
+flex-grow: 1;
+}
+.box3{
+background-color: #A9A9F5;
+flex-grow: 1;
+}
+/* ---------------contenedor 5--------- */
+.content5{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    height: 60px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.cont1{
+    background-color: #848484;
+    flex-grow: 1;
+}
+.cont2{
+    background-color: #4B8A08;
+    flex-grow: 1;
+}
+.cont3{
+    background-color: #F5A9BC;
+    flex-grow: 3.08;
+}
+/* boton para volver al index */
+button{
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #A9A9F5;
+    width: 100px;
+    height: 50px;
+}
+button a{
+    text-decoration: none;
+}

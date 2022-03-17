@@ -1,0 +1,29 @@
+@media (min-width:360px) and (max-width:740px) {
+   
+    div{
+       line-height: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    content{
+      height:  300px;
+    }
+    header{
+        
+        height: 100px;
+    }
+    .box-menu{
+        width: 282px;
+       
+    }
+   main{
+       height: 100px;
+   }
+   aside{
+       height:100px;
+   }
+   button{
+       
+
+   }
+}
